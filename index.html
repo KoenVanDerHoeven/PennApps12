@@ -3,7 +3,14 @@
     <head>
       <title>Result</title>
         <!--<link rel='stylesheet' type='text/css' href='stylesheet.css'/>-->
-        <script type='text/javascript' src='script.js'></script>
+        <script>
+$(document).ready(function() {
+    $('button').click(function() {
+      var toAdd = $("input[name=message]").val();
+        $('#messages').append("<p>"+toAdd+"</p>");
+    });
+});
+        </script>
   </head>
   <body>
         <form>
