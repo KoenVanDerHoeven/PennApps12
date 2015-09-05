@@ -22,5 +22,5 @@ function search() {
 }
 
 function showImage(){
-  document.getElementById('loadingImage').style.visibility='visible';
+  $("#loadingImage").toggle();
 }
