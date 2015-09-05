@@ -20,3 +20,7 @@ function search() {
     $('#search-container').html('<pre>' + str + '</pre>');
   });
 }
+
+function showImage(){
+  document.getElementById('loadingImage').style.visibility='visible';
+}
