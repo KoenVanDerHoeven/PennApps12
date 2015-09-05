@@ -1,5 +1,5 @@
 body {
-	background-image:url('assets/tilable.jpg');
+	background-image:url('../assets/tilable.jpg');
 	background-repeat: repeat-x repeat-y;
 	font-family: 'Slabo 27px', serif;
 	font-size: 30px;
